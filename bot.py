@@ -129,8 +129,6 @@ def generate_combination_and_items(quantity):
 
     return items
 
-pending_requests = {}
-
 class cartbutton(discord.ui.View):
     def __init__(self):
         super().__init__()
